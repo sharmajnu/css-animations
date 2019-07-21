@@ -1,0 +1,35 @@
+<style>
+  body {
+  
+  font-family: "Segoe UI";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading {
+  font-size: 2rem;
+  animation-iteration-count: 1;
+  animation: loading 5s infinite;
+  color: gray;
+  user-select: none;
+}
+
+
+@keyframes loading {
+  0% {
+    letter-spacing: 5px;
+  }
+  
+  50% {
+     letter-spacing: 1px;
+  }
+  
+  100% {
+  letter-spacing: 5px;
+  }
+}
+
+</style>
+
+<span class="loading">Loading...</span>
